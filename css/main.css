@@ -1,0 +1,127 @@
+body{
+    width: 100%;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main_barr{
+    width: 98%;
+    display: flex;
+    padding: 15px;
+    height: 8vh;
+    position: relative;
+    box-shadow: 0px 1px 20px #000;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_barr img{
+    width: 5%;
+    border-radius: 50px;
+}
+.main_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main_img{
+    height: 145vh;
+    position: fixed;
+    top: -30vh;
+}
+.info_img img{
+    width: 65vh;
+    position: relative;
+    height: 55vh;
+    display: flex;
+    top: 5vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.nube{
+    height: 25vh;
+    display: flex;
+    top: -3vh;
+    position: absolute;
+    left: 13vh;
+}
+.sol_luna{
+    width: 50vh;
+    position: relative;
+    height: 50vh;
+    top: 10vh;
+}
+.sol_luna img{
+    width: 100%;
+}
+
+.info_text{
+    width: 85vh;
+    position: relative;
+    height: 72vh;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    padding: 0px 0px 0px 15px;
+    border: ridge;
+}
+.locate{
+    width: 80vh;
+    position: relative;
+    height: 23vh;
+    display: flex;
+    top: 1vh;
+    font-style: italic;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.locate_text{
+    padding-left: 33px;    
+}
+.locate_text h1 {
+    font-size: 45px;
+}
+.text {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+}
+.locate_temp{
+    position: absolute;
+    right: 30px;
+}
+.locate_temp h1{
+    font-size: 45px;
+}
+.max-min{
+    display: flex;
+    bottom: 30px;
+    position: absolute;
+}
+.info_ciudad{
+    width: 76vh;
+    position: relative;
+    height: 45vh;
+    display: flow-root;
+    top: 2vh;
+    font-style: italic;
+    padding: 0px 0px 0px 30px;
+}
+.info_ciudad p{
+    font-size: 25px;
+}
